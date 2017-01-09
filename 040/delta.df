@@ -1,0 +1,47 @@
+UPDATE TABLE "CUstomer"
+  LABEL "Customer"
+
+UPDATE INDEX "Comments" OF "CUstomer"
+  DESCRIPTION ?
+UPDATE INDEX "Country-Post" OF "CUstomer"
+  DESCRIPTION ?
+UPDATE INDEX "Cust-Num" OF "CUstomer"
+  DESCRIPTION ?
+UPDATE INDEX "Name" OF "CUstomer"
+  DESCRIPTION ?
+UPDATE INDEX "Sales-Rep" OF "CUstomer"
+  DESCRIPTION ?
+UPDATE INDEX "Cust-Num" OF "Invoice"
+  DESCRIPTION ?
+UPDATE INDEX "Invoice-Date" OF "Invoice"
+  DESCRIPTION ?
+UPDATE INDEX "Invoice-Num" OF "Invoice"
+  DESCRIPTION ?
+UPDATE INDEX "Order-Num" OF "Invoice"
+  DESCRIPTION ?
+UPDATE FIELD "Item-Name" OF "Item"
+  FORMAT "X(100)"
+
+UPDATE INDEX "Cat-Description" OF "Item"
+  DESCRIPTION ?
+UPDATE INDEX "Item-Name" OF "Item"
+  DESCRIPTION ?
+UPDATE INDEX "Item-Num" OF "Item"
+  DESCRIPTION ?
+UPDATE INDEX "Cust-Order" OF "Order"
+  DESCRIPTION ?
+UPDATE INDEX "Order-Date" OF "Order"
+  DESCRIPTION ?
+UPDATE INDEX "Order-Num" OF "Order"
+  DESCRIPTION ?
+UPDATE INDEX "Sales-Rep" OF "Order"
+  DESCRIPTION ?
+UPDATE INDEX "Sales-Rep" OF "Salesrep"
+  DESCRIPTION ?
+UPDATE INDEX "State" OF "State"
+  DESCRIPTION ?
+.
+PSC
+cpstream=ISO8859-1
+.
+0000001105

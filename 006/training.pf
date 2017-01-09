@@ -1,0 +1,15 @@
+-db train2000.db -1
+-H localhost
+-S 40015
+
+-N tcp
+-d dmy
+-E
+-rereadnolock
+-T d:\temp 
+-cpinternal UTF-8
+-cpstream UTF-8
+-s 128
+
+-numsep 44
+-numdec 46

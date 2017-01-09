@@ -1,0 +1,2 @@
+DEFINE NEW GLOBAL SHARED VARIABLE v-cnt  AS INTEGER NO-UNDO. 
+ RUN "D:\niranjan\Block 1\060\4defglobal.p"
